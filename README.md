@@ -1,3 +1,3 @@
-# Citizen-poet-2025
+# citizen-poet-2025
 
-This is an application to express your opinion in poetry.
+1. Сделан грубый прототип шапки, показана общас структура и стиль кода.
