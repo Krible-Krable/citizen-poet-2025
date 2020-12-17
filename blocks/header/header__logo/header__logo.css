@@ -1,0 +1,6 @@
+.header__logo {
+  width: 160px;
+  height: 62px; /*потом высоты не будет*/
+  margin-left: 165px;
+  background-color: rgba(165, 165, 165, 1);
+}

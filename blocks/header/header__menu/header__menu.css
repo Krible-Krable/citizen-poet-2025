@@ -1,0 +1,6 @@
+.header__menu {
+  width: 160px;
+  height: 62px; /*потом высоты не будет*/
+  margin-right: 240px;
+  background-color: rgba(165, 165, 165, 1);
+}
