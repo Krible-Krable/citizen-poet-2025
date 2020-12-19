@@ -1,0 +1,14 @@
+.submenu__item-link {
+  display: block;
+  outline: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.submenu__item-link:hover {
+  opacity: 0.7s;
+  transition: 0.5s;
+  color: rgba(0, 0, 0, 0.5);
+}

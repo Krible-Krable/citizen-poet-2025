@@ -1,0 +1,8 @@
+.submenu__item {
+  width: 226px;
+  margin-bottom: 8px;
+}
+
+.submenu__item:last-of-type {
+  margin-bottom: 0;
+}

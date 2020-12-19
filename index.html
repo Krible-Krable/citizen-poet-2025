@@ -14,11 +14,28 @@
         </div>
         <input type="text" class="header__input" placeholder="#любовь" />
         <div class="header__menu">
-          <span>Выпадающее меню с регистрацией и ссылками</span>
+          <nav class="header__nav">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item">
+              <img class="header__menu-images_avatar" src="./images/Group 2.svg" alt="Аватар юзера">
+            </li>
+            <li class="header__menu-list-item">
+              <img class="header__menu-images_arrow" src="./images/Vector.svg" alt="выпадающий список">
+              <ul class="submenu">
+                <li class="submenu__item"><a class="submenu__item-link" href="/">Войти/Зарегистрироваться</a></li>
+                <hr class="decoration-line">
+                <li class="submenu__item"><a class="submenu__item-link" href="/">О нас</a></li>
+                <li class="submenu__item"><a class="submenu__item-link" href="/">Помощь</a></li>
+                <li class="submenu__item"><a class="submenu__item-link" href="/">Правила сообщества</a></li>
+                <li class="submenu__item"><a class="submenu__item-link" href="/">О создателях</a></li>
+                <li class="submenu__item"><a class="submenu__item-link" href="/">Партнерам</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
         </div>
       </div>
     </header>
-    <script type="module" src="./scripts/index.js"></script>
     <section class="content">
       <!-- посты со стихами -->
       <div>стих невидимый 1<div>
@@ -51,8 +68,8 @@
             </li>
           </ul>
         </div>
-      </div>
-    
+      </div>    
     </footer>
+    <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>
