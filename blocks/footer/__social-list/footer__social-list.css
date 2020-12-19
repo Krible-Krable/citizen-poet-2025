@@ -1,0 +1,6 @@
+.footer__social-list {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    justify-content: center;
+}
