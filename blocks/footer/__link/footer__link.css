@@ -1,0 +1,23 @@
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+    /* background-image: url(../../../image/Ellipse\ 28.jpg); */
+    background-image: url(../../../image/popular-3.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 53%;
+     width: 20px;
+    height: 20px;
+    margin-left: 3px;
+}
+
+.footer__link:active {
+    color: #fff;
+}
+
+.footer__link:visited {
+    color: rgb(216, 212, 212);
+}
+
