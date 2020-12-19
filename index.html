@@ -22,13 +22,13 @@
             <li class="header__menu-list-item">
               <img class="header__menu-images_arrow" src="./images/Vector.svg" alt="выпадающий список">
               <ul class="submenu">
-                <li class="submenu__item"><a class="submenu__item-link" href="/">Войти/Зарегистрироваться</a></li>
+                <li class="submenu__item"><span class="submenu__item-link" id="js_reg" href="/">Войти/Зарегистрироваться</span></li>
                 <hr class="decoration-line">
-                <li class="submenu__item"><a class="submenu__item-link" href="/">О нас</a></li>
-                <li class="submenu__item"><a class="submenu__item-link" href="/">Помощь</a></li>
-                <li class="submenu__item"><a class="submenu__item-link" href="/">Правила сообщества</a></li>
-                <li class="submenu__item"><a class="submenu__item-link" href="/">О создателях</a></li>
-                <li class="submenu__item"><a class="submenu__item-link" href="/">Партнерам</a></li>
+                <li class="submenu__item"><span class="submenu__item-link" href="/">О нас</span></li>
+                <li class="submenu__item"><span class="submenu__item-link" href="/">Помощь</span></li>
+                <li class="submenu__item"><span class="submenu__item-link" href="/">Правила сообщества</span></li>
+                <li class="submenu__item"><span class="submenu__item-link" href="/">О создателях</span></li>
+                <li class="submenu__item"><span class="submenu__item-link" href="/">Партнерам</span></li>
               </ul>
             </li>
           </ul>
@@ -70,6 +70,47 @@
         </div>
       </div>    
     </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <img class="popup__image" src="./images/f70f827e33a61a247663e7aeb282f895.jpg" alt="Лес на фоне ночного звездного неба">
+        <div class="forms">
+          <nav class="forms__nav">
+            <ul class="forms__nav-topbar">
+              <li class="forms__nav-topbar-item">Вход</li>
+              <li class="forms__nav-topbar-item">Регистрация</li>
+            </ul>
+          <button type="button" class="popup__close"></button>
+          </nav>
+          <nav class="forms__nav-social">
+            <ul class="forms__social-entry-container">
+              <li class="forms__social-entry-item">Вход с помощью (тут будут соцсети)
+                <ul class="forms__social-list">
+                  <li class="forms__social-list-item"></li>
+                  <li class="forms__social-list-item"></li>
+                  <li class="forms__social-list-item"></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="separate">
+            <hr class="separate_line">
+            <span class="separate_text">или</span>
+            <hr class="separate_line">
+          </div>
+          <form class="popup__forms">
+            <section class="popup__form-section">
+              <input type="email" class="popup__input-email" placeholder="E-mail пользователя">
+            </section>
+            <section class="popup__form-section">
+              <input type="password" class="popup__input-pass" placeholder="Пароль">
+            </section>
+            <a href="/" class="popup__forgotten-password">Забыли пароль?</a>
+            <button type="submit" class="popup__submit">Войти</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="./scripts/index.js"></script>
   </body>

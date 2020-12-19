@@ -5,6 +5,7 @@
   color: rgba(0, 0, 0, 1);
   font-size: 18px;
   line-height: 21px;
+  cursor: pointer;
 }
 
 .submenu__item-link:hover {

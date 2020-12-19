@@ -1,0 +1,16 @@
+.forms__nav-topbar-item {
+  margin-right: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #dcd5d5;
+  cursor: pointer;
+}
+
+.forms__nav-topbar-item:last-of-type {
+  margin-right: 0;
+}
+
+.forms__nav-topbar-item:hover {
+  color: #fff;
+}

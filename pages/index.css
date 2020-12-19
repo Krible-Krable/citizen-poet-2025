@@ -32,4 +32,24 @@
 @import url(../blocks/footer/__heading/footer__heading.css);
 @import url(../blocks/footer/__social-list/footer__social-list.css);
 @import url(../blocks/footer/__social-list-item/footer__social-list-item.css);
-@import url(../blocks/footer/__link/footer__link.css); ;
+@import url(../blocks/footer/__link/footer__link.css);
+
+/*popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_is-opened/popup_is-opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/forms/forms.css);
+@import url(../blocks/forms/__nav-topbar/forms__nav-topbar.css);
+@import url(../blocks/forms/__nav-topbar-item/forms__nav-topbar-item.css);
+@import url(../blocks/forms/__social-entry-container/forms__social-entry-container.css);
+@import url(../blocks/forms/__social-entry-item/forms__social-entry-item.css);
+@import url(../blocks/forms/__social-list-item/forms__social-list-item.css);
+@import url(../blocks/forms/separate/separate.css);
+@import url(../blocks/forms/separate/_line/separate_line.css);
+@import url(../blocks/forms/separate/_text/separate_text.css);
+@import url(../blocks/popup/__forms/popup__forms.css);
+@import url(../blocks/popup/__forms-section/popup__form-section.css);
+@import url(../blocks/popup/__forgotten-password/popup__forgotten-password.css);
+@import url(../blocks/popup/__submit/popup__submit.css);
