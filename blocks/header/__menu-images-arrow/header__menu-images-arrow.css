@@ -1,0 +1,5 @@
+.header__menu-images-arrow:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.header__nav .submenu {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.header__nav ul li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}

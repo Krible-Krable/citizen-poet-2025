@@ -3,13 +3,23 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 
-@import url(../blocks/header/header__logo/header__logo.css);
-@import url(../blocks/header/header__input/header__input.css);
-@import url(../blocks/header/header__menu/header__menu.css);
+/* header */
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-list-item/header__menu-list-item.css);
+@import url(../blocks/header/__menu-images-arrow/header__menu-images-arrow.css);
+@import url(../blocks/header/__nav/header__nav.css);
+
+/*submenu*/
+@import url(../blocks/submenu/submenu.css);
+@import url(../blocks/submenu/__item/submenu__item.css);
+@import url(../blocks/submenu/__item-link/submenu__item-link.css);
+@import url(../blocks/submenu/decoration-line/decoration-line.css);
 
 /* content */
-@import url(../blocks/content/content.css);
-
+/* @import url(../blocks/content/content.css); */
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -21,4 +31,4 @@
 @import url(../blocks/footer/__heading/footer__heading.css);
 @import url(../blocks/footer/__social-list/footer__social-list.css);
 @import url(../blocks/footer/__social-list-item/footer__social-list-item.css);
-@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/footer__link.css); ;
