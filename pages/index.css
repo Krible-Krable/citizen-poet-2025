@@ -9,7 +9,8 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__menu-list-item/header__menu-list-item.css);
-@import url(../blocks/header/__menu-images-arrow/header__menu-images-arrow.css);
+@import url(../blocks/header/__menu-images/_arrow/header__menu-images_arrow.css);
+@import url(../blocks/header/__menu-images/_avatar/header__menu-images_avatar.css);
 @import url(../blocks/header/__nav/header__nav.css);
 
 /*submenu*/
