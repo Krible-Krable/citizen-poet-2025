@@ -1,0 +1,13 @@
+.hashtags__link {
+    background-color: #A1A0A0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+}
+
+.hashtags__link:hover {
+    color: red;
+}
