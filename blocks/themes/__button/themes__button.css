@@ -1,0 +1,15 @@
+.themes__button {
+    background-color: hotpink;
+    border-radius: 50%;
+    border: none;
+    padding: 21px;
+    margin-right: 12px;
+}
+
+.themes__button:last-child {
+    margin-right: 0;
+}
+
+.themes__button:hover {
+    cursor: pointer;
+}

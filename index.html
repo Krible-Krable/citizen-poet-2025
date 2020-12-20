@@ -16,10 +16,10 @@
         <div class="header__menu">
           <nav class="header__nav">
           <ul class="header__menu-list">
-            <li class="header__menu-list-item">
+            <li class="header__menu-list_button">
               <img class="header__menu-images_avatar" src="./images/Group 2.svg" alt="Аватар юзера">
             </li>
-            <li class="header__menu-list-item">
+            <li class="header__menu-list_button">
               <img class="header__menu-images_arrow" src="./images/Vector.svg" alt="выпадающий список">
               <ul class="submenu">
                 <li class="submenu__item"><span class="submenu__item-link" id="js_reg" href="/">Войти/Зарегистрироваться</span></li>
@@ -36,34 +36,59 @@
         </div>
       </div>
     </header>
-    <section class="content">
-      <!-- посты со стихами -->
-      <div>стих невидимый 1<div>
-          <div>стих невидимый 2</div>
-          <div>стих невидимый 3</div>
-          <div>стих невидимый 4</div>
-    </section>
+    <main class="content">
+      <div class="main-content clearfix">
+
+        <section class="news">
+          <!-- посты со стихами -->
+          <div>стих невидимый 1<div>
+              <div>стих невидимый 2</div>
+              <div>стих невидимый 3</div>
+              <div>стих невидимый 4</div>
+        </section>
+  
+        <article class="side-bar">
+          <div class="themes">
+            <button type="button" class="themes__button themes__button_color_light"></button>
+            <button type="button" class="themes__button themes__button_color_dark"></button>
+            <button type="button" class="themes__button themes__button_color_sepia"></button>
+            <button type="button" class="themes__button themes__button_color_neon"></button>
+          </div>
+          <button class="add-btn">Создать заметку</button>
+          <div class="hashtags">
+            <a href="#" class="hashtags__link">#любовь</a>
+            <a href="#" class="hashtags__link">#любовь</a>
+            <a href="#" class="hashtags__link">#любовь</a>
+            <a href="#" class="hashtags__link">#любовь</a>
+            <a href="#" class="hashtags__link">#власть</a>     
+          </div>
+        </article>
+
+      </div> 
+
+    </main>
+  
     <footer class="footer">
       <div class="footer__wrapper">
         <nav class="footer__nav">
           <ul class="footer__nav-list footer__list">
-            <li class="footer__nav-list-item">О нас</li>
-            <li class="footer__nav-list-item">Помощь</li>
-            <li class="footer__nav-list-item">Правила сообщества</li>
-            <li class="footer__nav-list-item">О создателях</li>
-            <li class="footer__nav-list-item">Партнерам</li>
+            <li class="footer__nav-list_button">О нас</li>
+            <li class="footer__nav-list_button">Помощь</li>
+            <li class="footer__nav-list_button">Правила сообщества</li>
+            <li class="footer__nav-list_button">О создателях</li>
+            <li class="footer__nav-list_button">Партнерам</li>
           </ul>
         </nav>
         <div class="">
           <h3 class="footer__heading">Мы в социальных сетях:</h3>
           <ul class="footer__social-list footer__list">
-            <li class="footer__social-list-item">
+            <li class="footer__social-list_button">
               <a class="footer__link" href="#"></a>
             </li>
-            <li class="footer__social-list-item">
+            <li class="footer__social-list_button">
               <a class="footer__link" href="#"></a>
             </li>
-            <li class="footer__social-list-item">
+            <li class="footer__social-list_button">
               <a class="footer__link" href="#"></a>
             </li>
           </ul>

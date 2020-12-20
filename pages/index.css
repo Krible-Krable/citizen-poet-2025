@@ -20,7 +20,21 @@
 @import url(../blocks/submenu/decoration-line/decoration-line.css);
 
 /* content */
-/* @import url(../blocks/content/content.css); */
+@import url(../blocks/content/content.css);
+@import url(../blocks/side-bar/side-bar.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/clearfix/clearfix.css);
+
+/* hashtags */
+@import url(../blocks/hashtags/hashtags.css);
+@import url(../blocks/hashtags/__link/hashtags__link.css);
+
+/* themes */
+@import url(../blocks/themes/themes.css);
+@import url(../blocks/themes/__button/themes__button.css);
+
+/* button */
+@import url(../blocks/add-btn/add-btn.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

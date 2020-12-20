@@ -1,0 +1,8 @@
+.hashtags {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    gap: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 135px;
+}
