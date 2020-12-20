@@ -1,0 +1,6 @@
+.popup__container {
+  position: relative;
+  width: 450px;
+  display: flex;
+  background-color: #767474;
+}

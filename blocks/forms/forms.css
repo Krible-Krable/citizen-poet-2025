@@ -1,0 +1,6 @@
+.forms {
+  --widthA: 452px;
+  --widthB: 180px;
+  --widthC: calc(var(--widthA) - var(--widthB));
+  width: var(--widthC);
+}
