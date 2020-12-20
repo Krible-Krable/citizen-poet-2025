@@ -1,5 +1,7 @@
 .header__menu-list {
   list-style: none;
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
