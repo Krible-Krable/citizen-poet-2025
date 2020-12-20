@@ -1,3 +1,8 @@
 .footer__nav-list-item {
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer__nav-list-item:hover {
+    opacity: 0.8;
 }

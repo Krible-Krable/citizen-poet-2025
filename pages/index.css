@@ -24,6 +24,12 @@
 @import url(../blocks/side-bar/side-bar.css);
 @import url(../blocks/news/news.css);
 @import url(../blocks/clearfix/clearfix.css);
+@import url(../blocks/verse/verse.css);
+@import url(../blocks/verse/__heading/verse__heading.css);
+@import url(../blocks/verse/__text/verse__text.css);
+@import url(../blocks/verse/__author/verse__author.css);
+@import url();
+@import url();
 
 /* hashtags */
 @import url(../blocks/hashtags/hashtags.css);

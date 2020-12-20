@@ -1,0 +1,30 @@
+.verse{
+  background-color: rgb(191, 219, 243);
+  position: relative;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  /* border:0; */
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  padding-bottom: 20px;
+  margin-bottom: 50px; 
+}
+
+.verse::after {
+    /* content: ''; 
+    position: absolute;
+    right: -30px; top: 15px;
+    border: 10px solid transparent;
+    border-left: 20px solid rgb(191, 219, 243);
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06); */
+
+    content: '';
+    position: absolute;
+    background:rgb(191, 219, 243);
+    left: 20px; bottom: -11px;
+    width: 20px; height: 20px;
+    /* box-shadow: 0 0 7px #000; Добавляем тень для уголка */
+    box-shadow:0 0 7px rgba(0,0,0,0.06);
+    z-index: -1; /* Прячем за основным блоком */
+    transform: rotate(45deg); /* Поворачиваем на 45º */
+}
